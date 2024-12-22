@@ -1,0 +1,6 @@
+*.pyc 
+*.ini
+*.bak
+*.xlsx
+*.csv
+*.docx

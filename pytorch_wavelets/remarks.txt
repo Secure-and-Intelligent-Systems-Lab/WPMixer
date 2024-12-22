@@ -1,0 +1,1 @@
+The codes of this folder are from https://github.com/fbcotter/pytorch_wavelets with minor modifications for PyTorch mix precision operation.
