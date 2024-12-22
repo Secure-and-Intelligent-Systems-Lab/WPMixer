@@ -1,7 +1,7 @@
 <h1 align="center">WPMixer: Efficient Multi-Resolution Mixing for Long-Term Time Series Forecasting</h1>
 <hr style="border: 1px solid  #256ae2 ;">
 
-### Download the paper: [AAAI-2025](https:willbeadded.com), [ARXIV](https:willbeadded.com)
+### Paper Link: [AAAI-2025](https:willbeadded.com), [ARXIV](https:willbeadded.com)
 ```bibtex
 BIBTEX will be added soon.
 ```
