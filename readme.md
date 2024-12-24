@@ -1,9 +1,17 @@
 <h1 align="center">WPMixer: Efficient Multi-Resolution Mixing for Long-Term Time Series Forecasting</h1>
 <hr style="border: 1px solid  #256ae2 ;">
 
-### Paper Link: [AAAI-2025](https:willbeadded.com), [ARXIV](https:willbeadded.com)
+### Paper Link: [AAAI-2025](https:willbeadded.com), [ARXIV](https://arxiv.org/abs/2412.17176)
 ```bibtex
-BIBTEX will be added soon.
+@misc{murad2024wpmixerefficientmultiresolutionmixing,
+      title={WPMixer: Efficient Multi-Resolution Mixing for Long-Term Time Series Forecasting}, 
+      author={Md Mahmuddun Nabi Murad and Mehmet Aktukmak and Yasin Yilmaz},
+      year={2024},
+      eprint={2412.17176},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2412.17176}, 
+}
 ```
 
 ## Get started
