@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ### 2. Download Data
 Download the data and locate them in the ```./data/``` folder. You can download all data from the public GitHub repo: [Autoformer](https://github.com/thuml/Autoformer) or [TimeMixer](https://github.com/kwuking/TimeMixer). All the datasets are well-pre-processed and can be used easily. To place and rename the datasets file, check the following folder tree,
 <p align="center">
-  <img src="data_tree.png" alt="Folder tree" title="Folder tree" width="100">
+  <img src="scripts/data_tree.png" alt="Folder tree" title="Folder tree" width="100">
 </p>
 <p align="center"><strong>Figure: Folder Tree</strong></p>
 
@@ -73,20 +73,20 @@ Time series forecasting is crucial for various applications, such as weather for
     
 <p><strong>Model Architecture:</p>
 <p align="center">
-  <img src="Model_architecture.png" alt="Model architecture" title="Model Architecture" width="800">
+  <img src="scripts/Model_architecture.png" alt="Model architecture" title="Model Architecture" width="800">
 </p>
 
 <p><strong>Multivariate Long-Term Forecasting Results with full hyperparameter searching:</p>
 <p align="center">
-  <img src="Multivariate_long_term_result.png" alt="Multivariate_long_term_result-1" title="Multivariate long term forecasting with full hyperparameter tuning" width="600">
+  <img src="scripts/Multivariate_long_term_result.png" alt="Multivariate_long_term_result-1" title="Multivariate long term forecasting with full hyperparameter tuning" width="600">
 </p>
 
 <p><strong>Multivariate Long-Term Forecasting under Unified Setting:</p>
 <p align="center">
-  <img src="Multivariate_long_term_result_unified_setting.png" alt="Multivariate_long_term_result-2" title="Multivariate long term forecasting with unified setting" width="600">
+  <img src="scripts/Multivariate_long_term_result_unified_setting.png" alt="Multivariate_long_term_result-2" title="Multivariate long term forecasting with unified setting" width="600">
 </p>
     
 <p><strong>Univariate Long-term forecasting result:</p>
 <p align="center">
-  <img src="Univariate_long_term_result.png" alt="Univariate forecasting result" title="Univariate long term forecasting result" width="600">
+  <img src="scripts/Univariate_long_term_result.png" alt="Univariate forecasting result" title="Univariate long term forecasting result" width="600">
 </p>
