@@ -23,6 +23,12 @@ Install Python 3.10 and the necessary dependencies.
 pip install -r requirements.txt
 ```
 ### 2. Download Data
+<b>Process-1:<\b>
+Download the zip file of the datasets from the [link](https://usf.box.com/s/8ghqgtxfp1hw3rfvocr2s5gjf7w4x3ol).
+Paste the zip file inside the <u>root folder<\u> and extract. Now you will have ```./data/``` folder containing all the datasets.
+ 
+Or, 
+<b>Process-2:<\b>
 Download the data and locate them in the ```./data/``` folder. You can download all data from the public GitHub repo: [Autoformer](https://github.com/thuml/Autoformer) or [TimeMixer](https://github.com/kwuking/TimeMixer). All the datasets are well-pre-processed and can be used easily. To place and rename the datasets file, check the following folder tree,
 <p align="center">
   <img src="scripts/data_tree.png" alt="Folder tree" title="Folder tree" width="100">
