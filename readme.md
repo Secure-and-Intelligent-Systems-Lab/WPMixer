@@ -1,11 +1,10 @@
 <h1 align="center">WPMixer: Efficient Multi-Resolution Mixing for Long-Term Time Series Forecasting</h1>
 <hr style="border: 1px solid  #256ae2 ;">
 
+<div align="center">
 <a href='https://arxiv.org/abs/2412.17176'><img src='https://img.shields.io/badge/Paper-PDF-orange'></a> 
-![Visits Badge](https://badges.pufler.dev/visits/Secure-and-Intelligent-Systems-Lab/WPMixer)
 ![Stars](https://img.shields.io/github/stars/Secure-and-Intelligent-Systems-Lab/WPMixer)
 ![Forks](https://img.shields.io/github/forks/Secure-and-Intelligent-Systems-Lab/WPMixer)
-
 </div>
 
 ```bibtex
