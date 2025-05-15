@@ -19,6 +19,9 @@
       url={https://arxiv.org/abs/2412.17176}, 
 }
 ```
+## 🔄 Updates
+- **[May 2025]** Added a script for **hyperparameter tuning** using Optuna under `./scripts/HyperParameter_Tuning/`. These scripts explore optimal hyperparameter settings for ETT dataset.
+
 
 ## Get started
 Follow these steps to get started with WPMixer:
