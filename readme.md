@@ -20,6 +20,7 @@
 }
 ```
 ## 🔄 Updates
+- **[June 2025]** Rethinking MLP-Mixers: Causality Matters! One Embedding Layer or More? [Check out this paper](https://arxiv.org/abs/2506.00188)
 - **[May 2025]** Added a script for **hyperparameter tuning** using Optuna under `./scripts/HyperParameter_Tuning/`. These scripts explore optimal hyperparameter settings for ETT dataset.
 
 
