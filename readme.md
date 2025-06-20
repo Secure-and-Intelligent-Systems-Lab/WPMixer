@@ -7,6 +7,8 @@
 ![Forks](https://img.shields.io/github/forks/Secure-and-Intelligent-Systems-Lab/WPMixer)
 
 </div>
+
+
 ```bibtex
 @inproceedings{murad2025wpmixer,
   title={Wpmixer: Efficient multi-resolution mixing for long-term time series forecasting},
@@ -18,7 +20,6 @@
   year={2025}
 }
 ```
-
 ## 🔄 Updates
 - **[June 2025]** 🔥🔥🔥 Rethinking MLP-Mixers: Causality Matters! One Embedding Layer or More? [Check out this paper](https://arxiv.org/abs/2506.00188)
 - **[May 2025]** Added a script for **hyperparameter tuning** using Optuna under `./scripts/HyperParameter_Tuning/`. These scripts explore optimal hyperparameter settings for ETT dataset.
