@@ -7,18 +7,18 @@
 ![Forks](https://img.shields.io/github/forks/Secure-and-Intelligent-Systems-Lab/WPMixer)
 
 </div>
-
 ```bibtex
-@misc{murad2024wpmixerefficientmultiresolutionmixing,
-      title={WPMixer: Efficient Multi-Resolution Mixing for Long-Term Time Series Forecasting}, 
-      author={Md Mahmuddun Nabi Murad and Mehmet Aktukmak and Yasin Yilmaz},
-      year={2024},
-      eprint={2412.17176},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2412.17176}, 
+@inproceedings{murad2025wpmixer,
+  title={Wpmixer: Efficient multi-resolution mixing for long-term time series forecasting},
+  author={Murad, Md Mahmuddun Nabi and Aktukmak, Mehmet and Yilmaz, Yasin},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={18},
+  pages={19581--19588},
+  year={2025}
 }
 ```
+
 ## 🔄 Updates
 - **[June 2025]** 🔥🔥🔥 Rethinking MLP-Mixers: Causality Matters! One Embedding Layer or More? [Check out this paper](https://arxiv.org/abs/2506.00188)
 - **[May 2025]** Added a script for **hyperparameter tuning** using Optuna under `./scripts/HyperParameter_Tuning/`. These scripts explore optimal hyperparameter settings for ETT dataset.
@@ -40,10 +40,27 @@ Paste the zip file inside the <u>root folder</u> and extract. Now you will have 
 Or, 
 <b>Process-2:</b>
 Download the data and locate them in the ```./data/``` folder. You can download all data from the public GitHub repo: [Autoformer](https://github.com/thuml/Autoformer) or [TimeMixer](https://github.com/kwuking/TimeMixer). All the datasets are well-pre-processed and can be used easily. To place and rename the datasets file, check the following folder tree,
-<p align="center">
-  <img src="scripts/data_tree.png" alt="Folder tree" title="Folder tree" width="100">
-</p>
-<p align="center"><strong>Figure: Folder Tree</strong></p>
+```
+data
+├── electricity
+│   └── electricity.csv
+├── ETT
+│   ├── ETTh1.csv
+│   ├── ETTh2.csv
+│   ├── ETTm1.csv
+│   └── ETTm2.csv
+├── exchange_rate
+│   └── exchange_rate.csv
+├── illness
+│   └── national_illness.csv
+├── m4
+├── solar
+│   └── solar_AL.txt
+├── traffic
+│   └── traffic.csv
+└── weather
+    └── weather.csv
+```
 
     
 ### 3. Train the model
