@@ -1,8 +1,8 @@
 <h1 align="center">WPMixer: Efficient Multi-Resolution Mixing for Long-Term Time Series Forecasting</h1>
 
 <div align="center">
-[**Full Paper (ARXIV)**](https://arxiv.org/abs/2412.17176)
-</div>
+
+<p><a href="https://arxiv.org/abs/2412.17176"><strong>Full Paper (ARXIV)</strong></a></p>
 
 <hr style="border: 1px solid  #256ae2 ;">
 
