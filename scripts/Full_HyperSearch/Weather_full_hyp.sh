@@ -58,6 +58,5 @@ for i in "${!pred_lens[@]}"; do
 		--dropout ${dropouts[$i]} \
 		--embedding_dropout ${embedding_dropouts[$i]} \
 		--patience ${patiences[$i]} \
-		--train_epochs ${epochs[$i]} \
-		--use_amp > $log_file
+		--train_epochs ${epochs[$i]} > $log_file
 done
