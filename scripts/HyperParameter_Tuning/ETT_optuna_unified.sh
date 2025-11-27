@@ -2,12 +2,12 @@ if [ ! -d "./logs" ]; then
     mkdir ./logs
 fi
 
-if [ ! -d "./logs/WLMixer" ]; then
-    mkdir ./logs/WLMixer
+if [ ! -d "./logs/WPMixer" ]; then
+    mkdir ./logs/WPMixer
 fi
 export CUDA_VISIBLE_DEVICES=0
 # General
-model_name=WLMixer
+model_name=WPMixer
 task_name=long_term_forecast
 loss_name=smoothL1
 patience=5
@@ -54,7 +54,7 @@ python -u main_run2.py \
 	--optuna_weight_decay 0.0 \
 	--optuna_patience $patience \
 	--optuna_level 1 \
-	--optuna_trial_num $trial_num >logs/WLMixer/ETTh_96_with_decomposition.log
+	--optuna_trial_num $trial_num >logs/WPMixer/ETTh_96_with_decomposition.log
 
 #192
 python -u main_run2.py \
@@ -82,7 +82,7 @@ python -u main_run2.py \
 	--optuna_weight_decay 0.0 \
 	--optuna_patience $patience \
 	--optuna_level 1 2 3 \
-	--optuna_trial_num $trial_num >logs/WLMixer/ETTh_192_with_decomposition.log
+	--optuna_trial_num $trial_num >logs/WPMixer/ETTh_192_with_decomposition.log
 
 #336
 python -u main_run2.py \
@@ -110,7 +110,7 @@ python -u main_run2.py \
 	--optuna_weight_decay 0.0 \
 	--optuna_patience $patience \
 	--optuna_level 1 2 3 \
-	--optuna_trial_num $trial_num >logs/WLMixer/ETTh_336_with_decomposition.log
+	--optuna_trial_num $trial_num >logs/WPMixer/ETTh_336_with_decomposition.log
 
 # 720
 python -u main_run2.py \
@@ -138,7 +138,7 @@ python -u main_run2.py \
 	--optuna_weight_decay 0.0 \
 	--optuna_patience $patience \
 	--optuna_level 1 2 3 \
-	--optuna_trial_num $trial_num >logs/WLMixer/ETTh_720_with_decomposition.log
+	--optuna_trial_num $trial_num >logs/WPMixer/ETTh_720_with_decomposition.log
 	
 #######################################
 #######################################
@@ -175,7 +175,7 @@ python -u main_run2.py \
 	--optuna_weight_decay 0.0 \
 	--optuna_patience $patience \
 	--optuna_level 1 \
-	--optuna_trial_num $trial_num >logs/WLMixer/ETTm_96_with_decomposition.log
+	--optuna_trial_num $trial_num >logs/WPMixer/ETTm_96_with_decomposition.log
 
 # 192
 python -u main_run2.py \
@@ -203,7 +203,7 @@ python -u main_run2.py \
 	--optuna_weight_decay 0.0 \
 	--optuna_patience $patience \
 	--optuna_level 1 2 \
-	--optuna_trial_num $trial_num >logs/WLMixer/ETTm_192_with_decomposition.log
+	--optuna_trial_num $trial_num >logs/WPMixer/ETTm_192_with_decomposition.log
 	
 # 336
 python -u main_run2.py \
@@ -231,7 +231,7 @@ python -u main_run2.py \
 	--optuna_weight_decay 0.0 \
 	--optuna_patience $patience \
 	--optuna_level 1 2 \
-	--optuna_trial_num $trial_num >logs/WLMixer/ETTm_336_with_decomposition.log
+	--optuna_trial_num $trial_num >logs/WPMixer/ETTm_336_with_decomposition.log
 	
 # 720
 python -u main_run2.py \
@@ -259,4 +259,4 @@ python -u main_run2.py \
 	--optuna_weight_decay 0.0 \
 	--optuna_patience $patience \
 	--optuna_level 1 2 \
-	--optuna_trial_num $trial_num >logs/WLMixer/ETTm_720_with_decomposition.log
+	--optuna_trial_num $trial_num >logs/WPMixer/ETTm_720_with_decomposition.log
