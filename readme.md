@@ -25,6 +25,7 @@
 }
 ```
 ## 🔄 Updates
+- **[June 2026]** 🔥🔥🔥 How will you introduce <b>Temporal causality</b> in MLP mixer? Check 👉 <a href="https://arxiv.org/abs/2506.00188"><strong>CCM-TAD (ICML-2026)</strong></a>
 - **[Nov 2025]** 🔥🔥🔥 Added full instructions for the optuna hyper-parameter tuning.
 - **[May 2025]** Added a script for **hyperparameter tuning** using Optuna under `./scripts/HyperParameter_Tuning/`. These scripts explore optimal hyperparameter settings for ETT dataset.
 
